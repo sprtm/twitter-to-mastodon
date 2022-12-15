@@ -1,0 +1,17 @@
+[
+	{
+		"feed_id": "01",
+		"feed_name": "Reuters",
+		"feed_url": "https://nitter.net/Reuters/rss"
+	},
+	{
+		"feed_id": "02",
+		"feed_name": "BBCWorld",
+		"feed_url": "https://nitter.net/BBCWorld/rss"
+	},
+	{
+		"feed_id": "03",
+		"feed_name": "Azure",
+		"feed_url": "https://nitter.net/Azure/rss"
+	}
+]
