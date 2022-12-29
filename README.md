@@ -1,10 +1,11 @@
 # twitter-to-mastodon
-A crude bash script that mirrors an unlimited number of Twitter accounts and post them to Mastodon. It uses [Nitter](https://github.com/zedeus/nitter) RSS streams as source—Twitter's API is not involved. _Text only_, images are not re-posted (but a link to the original Nitter post is included in the post and most Mastodon clients will show the image as a link preview). The visibility of posts is set to 'Followers only'—the posts/account(s) are not meant to be reblogged/boosted. The script can either post all feeds to one single Mastodon account, or one separate account per feed (default). Run the script with `cron` for automated posting.
+A crude bash script that mirrors an unlimited number of Twitter accounts and post them to Mastodon. It uses [Nitter](https://github.com/zedeus/nitter) RSS streams as source — Twitter's API is not involved. _Text only_, images are not re-posted (but a link to the original Nitter post is included in the post and most Mastodon clients will show the image as a link preview — see screenshot below). The visibility of posts is set to 'Followers only' — the posts/account(s) are not meant to be reblogged/boosted. The script can either post all feeds to one single Mastodon account, or one separate account per feed (default). Run the script with `cron` for automated posting.
 
 Tested on a Raspberry Pi/Debian only.
 
 Example of a post with a linked image, rendered as a link preview:
-![Alt text](url "screenshot.jpg")
+
+<img src="screenshot.jpg" width="350" />
 
 ## Requires
 * jq
