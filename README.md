@@ -3,6 +3,9 @@ A crude bash script that mirrors an unlimited number of Twitter accounts and pos
 
 Tested on a Raspberry Pi/Debian only.
 
+Example of a post with a linked image, rendered as a link preview:
+![Alt text](url "screenshot.jpg")
+
 ## Requires
 * jq
 * xq
